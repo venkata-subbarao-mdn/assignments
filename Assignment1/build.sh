@@ -1,3 +1,5 @@
+mkdir -p obj/Debug
+mkdir -p bin/Debug
 g++ -Wall -fexceptions -g -Iinclude -c /home/venkat/Documents/Assignments/Assignment1/main.cpp -o obj/Debug/main.o
 g++ -Wall -fexceptions -g -Iinclude -c /home/venkat/Documents/Assignments/Assignment1/src/ChildrenMovie.cpp -o obj/Debug/src/ChildrenMovie.o
 g++ -Wall -fexceptions -g -Iinclude -c /home/venkat/Documents/Assignments/Assignment1/src/Customer.cpp -o obj/Debug/src/Customer.o
